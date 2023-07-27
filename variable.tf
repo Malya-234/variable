@@ -18,6 +18,6 @@ resource "aws_instance" "ec2_instance" {
   instance_type = var.{instance_count}
   key           = var.{key_name}
   security_grp  = var.{sg_id}
-  subnet        = var.{sg_id}
+  subnet        = var.{subnet_id}
   region        = var.{reg}
 }
