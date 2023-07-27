@@ -13,11 +13,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "ec2_instance" {
-  count         = var.instance_count
-  ami           = var.ami_id
-  instance_type = var.instance_typ
-  key           = var.key_name
-  security_grp  = var.sg_id
-  subnet        = var.subnet_id
-  region        = var.reg
+  count         = var.{}
+  ami           = var.{}
+  instance_type = var.{}
+  key           = var.{}
+  security_grp  = var.{}
+  subnet        = var.{}
+  region        = var.{}
 }
